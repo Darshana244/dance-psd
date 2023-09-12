@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.conteiner {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+/* -----------------section-1---------------------- */
+.sec-one {
+    background: url(./image/sec-1\ bg.png);
+    background-repeat: no-repeat;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #303030;
+}
+
+.logo {
+    width: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.jc3 {
+    justify-content: space-between;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.align-c {
+    align-items: center;
+}
+
+.po-rel{
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    /* vertical-align: middle; */
+}
+
+.navbar {
+    align-items: center;
+    padding: 15px 0;
+    justify-content: space-between;
+    /* line-height: 80px; */
+}
+
+.links ul li {
+    display: inline-block;
+    /* margin: 20px; */
+}
+
+.links ul li a {
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 18px;
+}
+
+.icon {
+    color: rgb(245, 237, 237);
+    font-size: 30px;
+}
+
+.sec-one-text{
+    margin: 100px  0 0 80px;
+    padding: 80px 0;
+}
+
+.sec-one-pri-text h1{
+    margin-top: 100px;
+}
+
+.sec-one-text h1{
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    padding: 0 0 10px 0;   
+}
+
+.sec-one-text p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    width: 50%;
+    margin: 0 0 20px 0;
+    padding: 15px 0;
+    opacity: 0.7;
+}
+
+.sec-one-text button{
+    background-color: #e8631c;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px 50px;
+}
+
+/* ---------------------------section-2--------------------------- */
+.sec-two{
+    overflow: hidden;
+    background-color: #e8631c;
+    width: 1350px;
+    margin: 0 auto;
+} 
+
+.sec-two-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+
+.sec-two-text p {
+    font-size: 30px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    /* padding-bottom: 50px; */
+}
+
+.cart {
+    padding: 80px 55px;
+}
+
+.cart-bg {
+    background-color: #303030;
+    margin: 0 auto;
+}
+
+.cart img {
+    width: 100%;
+}
+
+.cart h2 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.cart p {
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    padding: 10px 0 30px 0;
+    width: 70%;
+    text-align: center;
+    /* margin: 20px 0; */
+}
+
+.po-ab-img {
+    position: absolute;
+    top: -600px;
+    left: -400px;
+}
+   
+/* --------------------------section-3-------------------------------- */
+.sec-three {
+    background-color: #303030;
+    overflow: hidden;
+    width: 1350px;
+    margin: 0 auto;
+}
+.po-ab-img1 {
+    position: absolute;
+    top: -100px;
+    left: -200px;
+}
+
+.sec-three img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.sec-three-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 80px 0 40px 0;
+}
+
+.sec-three-text p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    opacity: 70%;
+}
+
+.cart-bg3 {
+    background-color: #e8631c;
+    border-radius: 8px;
+}
+
+.sec-three button {
+    background-color: #303030;
+    border: none;
+    font-size: 18px;
+    color: white;
+    padding: 12px 80px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+ 
+/* ---------------------------section-4---------------------------------- */
+.sec-four {
+    background-color: #e8631c;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.sec-four img {
+    width: 100%;
+}
+
+.sec-four-text {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.sec-four-text h2 , .sec-five-text h2 {
+    font-size: 65px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.sec-four-text p , .sec-five-text p {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 80px;
+    opacity: 70%;
+} 
+
+.sec-four-text button {
+    font-size: 25px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 15px 50px;
+}
+
+.po-ab-img-4 {
+    position: absolute;
+    bottom: 500px;
+    right: -560px;
+}
+
+.po-ab-img1-4 {
+    position: absolute;
+    bottom: -800px;
+    left: 400px;
+}
+
+
+/* ----------------------------section-5--------------------------------- */
+.sec-five {
+    overflow: hidden;
+    background-color: #e8631c;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.sec-five img {
+    width: 100%;
+}
+
+.sec-five-text {
+    margin: 0 auto;
+    padding: 0 40px;
+    width: 70%;
+}
+
+.sec-five-text button {
+    font-size: 25px;
+    color: white;
+    background-color: #303030;
+    border: none;
+    padding: 10px 50px;
+}
+.po-ab-img5 {
+    position: absolute;
+    bottom: -600px;
+    left: -400px;
+}
+
+/* ----------------------------section-6--------------------------------- */
+.sec-six{
+    background-color: #303030;
+    padding: 50px;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.sec-six-text {
+    padding: 50px;
+}
+.sec-six-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+
+.sec-six-text p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    opacity: 80%;
+}
+
+.sec-six-text1{
+    padding: 50px 0 100px 0;
+}
+.sec-six-text1 h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+
+.sec-six-text1 p {
+    font-size: 39px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    /* margin-bottom: 30px; */
+}
+
+/* -----------------------secction-7----------------------------- */
+.sec-seven {
+    background-image: url(./image/sec-7\ bg.png);
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.sec-seven-text{
+   /* margin: 100px 0;  */
+   padding: 100px 0;
+   margin: 0 auto;
+}
+
+.sec-seven-text1{
+    padding: 90px 0;
+}
+
+.sec-seven-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 50px 0 80px 0;
+}
+
+.sec-seven-text p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 80px 0 0 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+/* ------------------------section-8--------------------------- */
+.sec-eight {
+    overflow: hidden;
+    background-color: #e8631c;
+    width: 1350px;
+    margin: 0 auto;
+    padding: 60px;
+}
+
+.po-ab-img1-8 {
+    position: absolute;
+    top: -50px;
+    left: 550px;
+}
+
+.po-ab-img-8 {
+    position: absolute;
+    top: -100px;
+    left: -600px;
+}
+
+.sec-eight-text h2 {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+
+.sec-eight-text p {
+    font-size: 30px;
+    color: white;
+    width: 70%;
+    text-align: center;
+    /* padding: 20px; */
+    margin: 0 auto;
+}
+
+.input-field {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.input-field input {
+    width: 500px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.input-field button {
+    margin: 0 0 0 -5px;
+    padding: 15px 50px;
+    border: none;
+    /* font-size: 14px; */
+    color: white;
+    background-color: #303030;
+}
+
+
+/* --------------------section-9----------------------- */
+.sec-nine {
+    background-color: #303030;
+    width: 1350px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+.sec-nine-text {
+    color: white;
+}
+
+.sec-nine-text h3 {
+    font-size: 30px;
+    margin: 20px 0 0 0;
+    padding: 30px 0;
+}
+
+.sec-nine-text p {
+    font-size: 20px;
+    width: 70%;
+    opacity: 70%;
+}
+
+.cart2 {
+    padding: 0 30px;
+}
+
+.cart2 ul li {
+    text-decoration: none;
+    display: flex;
+    opacity: 80%;
+}
+
+.icon {
+    font-size: 30px;
+    gap: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.ml-a {
+    margin-left: auto;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media (min-width :576px) {
+    .container {
+        width: 550px;
+        margin: 0 auto;
+    }
+    .sec-one-text h1{
+        font-size: 50px;
+    }
+    .sec-one-text p {
+        font-size: 25px;
+    }
+    .sec-two-text h2,.sec-three-text h2,.sec-four-text h2,.sec-five-text h2,.sec-six-text h2,.sec-seven-text h2,.sec-eight-text h2,.sec-nine-text h2{
+        font-size: 40px;
+    }
+    .sec-two-text p,.sec-three-text p,.sec-four-text p,.sec-five-text p,.sec-six-text p,.sec-seven-text p,.sec-eight-text p,.sec-nine-text p{
+        font-size: 20px;
+        width: 95%;
+    }
+    .cart{
+        padding: 20px;
+    }
+    .cart2{
+
+    }
+    .col-20 {
+        width: 30%;
+    }
+    .col-30 {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .col-40 {
+        width: 100%;
+    }   
+    .col-50 {
+        width: 100%;
+    } 
+}
+@media (min-width :768px) {
+    .container {
+        width: 720px;
+    } 
+    .sec-one-text h2, .sec-two-text h2,.sec-three-text h2,.sec-four-text h2,.sec-five-text h2,.sec-six-text h2,.sec-seven-text h2,.sec-eight-text h2,.sec-nine-text h2{
+        font-size: 40px;
+    }
+    .sec-one-text p, .sec-two-text p,.sec-three-text p,.sec-four-text p,.sec-five-text p,.sec-six-text p,.sec-seven-text p,.sec-eight-text p,.sec-nine-text p{
+        font-size: 20px;
+        width: 95%;
+    }
+    .cart{
+        padding: 20px;
+    }
+    .col-20 {
+        width: 20%;
+    }
+    .col-30 {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .sec-six-text p{
+        width: 90%;
+    }
+    .col-40 {
+        width: 40%;
+    }
+    .col-50 {
+        width: 50%;
+    }
+  }
+
+  @media (min-width :992px) {
+    .container {
+        width: 960px;
+    } 
+    .sec-one-text h2, .sec-two-text h2,.sec-three-text h2,.sec-four-text h2,.sec-five-text h2,.sec-six-text h2,.sec-seven-text h2,.sec-eight-text h2,.sec-nine-text h2{
+        font-size: 40px;
+    }
+    .sec-one-text p, .sec-two-text p,.sec-three-text p,.sec-four-text p,.sec-five-text p,.sec-six-text p,.sec-seven-text p,.sec-eight-text p,.sec-nine-text p{
+        font-size: 20px;
+        width: 95%;
+    }
+    .cart{
+        padding: 20px;
+        margin: 20px;
+    }
+    .col-20 {
+        width: 20%;
+    }
+    .col-30 {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .col-40 {
+        width: 40%;
+    }
+    .col-50 {
+        width: 50%;
+    }
+  }
+
+  @media (min-width :1200px) {
+    .container {
+        width: 1150px;
+    }
+    .col-20 {
+        width: 20%;
+    }
+    .col-30 {
+        width: 30%;
+    }
+    .col-40 {
+        width: 40%;
+    }
+    .col-50 {
+        width: 50%;
+    }
+  }
